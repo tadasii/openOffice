@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+#openOffice配置
+jodconverter:
+  local:
+    enabled: true
+    max-tasks-per-process: 10
+    port-numbers: 8100
+    office-home: C:\Program Files (x86)\OpenOffice 4\
+
+word:
+  dir: D:\\test\\  #文档路径
